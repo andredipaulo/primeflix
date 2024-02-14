@@ -1,0 +1,49 @@
+.meusFavoritos{
+    /* width: 100vw;
+    max-width: 100%; */
+    /* width: 100%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;    
+}
+.meusFavoritos h1{
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.meusFavoritos span{
+    font-size: 18px;
+}
+
+.meusFavoritos ul{
+    /* width: 720px; */    
+    width: 100vw;    
+}
+
+.meusFavoritos ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    margin-bottom: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.meusFavoritos div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meusFavoritos div a{
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 14px;
+}
